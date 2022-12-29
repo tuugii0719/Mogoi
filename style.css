@@ -4,8 +4,20 @@ position: relative;
 }
 .snake{
     background-color: green;
-    position: absolute
+    position: absolute;
+    border-radius: 30%;
+}
+.snake:nth-child(2){
+    background-color: black;
 }
 .food{
-    background-color: blue;
+    background-color: red;
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+}
+.score{
+    background-color: green;
+    font-size: large;
+    color: black;
 }
